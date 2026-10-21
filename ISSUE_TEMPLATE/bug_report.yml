@@ -1,0 +1,31 @@
+name: Bug report / Сообщение об ошибке
+description: Something does not work as expected / Что-то работает не так, как ожидалось
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never attach a real database, key file, password, configuration or subscription link.**
+        Security vulnerabilities go through [SECURITY.md](https://github.com/vazie-app/.github/blob/main/SECURITY.md), not public issues.
+
+        **Никогда не прикладывайте настоящую базу, файл ключа, пароль, конфигурацию или ссылку на подписку.**
+        Об уязвимостях сообщайте через [SECURITY.ru.md](https://github.com/vazie-app/.github/blob/main/SECURITY.ru.md), а не публичным issue.
+  - type: input
+    id: version
+    attributes:
+      label: App version and system version / Версия приложения и системы
+      placeholder: Vazie 1.0.0, Android 15
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Шаги воспроизведения
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual behaviour / Ожидаемое и фактическое поведение
+    validations:
+      required: true

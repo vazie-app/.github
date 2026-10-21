@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability / Сообщить об уязвимости
+    url: https://github.com/vazie-app/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue. Report it privately. / Не создавайте публичный issue, сообщите приватно.
+  - name: Ask a question / Задать вопрос
+    url: https://t.me/vazieapp
+    about: Questions and news go to Telegram. / Вопросы и новости — в Telegram.

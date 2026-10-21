@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="Vazie">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1458"/>
+      <stop offset="1" stop-color="#0c2440"/>
+    </linearGradient>
+    <radialGradient id="glowPink" cx="0.12" cy="0.1" r="0.55">
+      <stop offset="0" stop-color="#d36cff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#d36cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.92" cy="0.95" r="0.5">
+      <stop offset="0" stop-color="#3fd4ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#3fd4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9b8ff"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d36cff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#b58cff"/>
+      <stop offset="1" stop-color="#3fd4ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glowPink)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glowCyan)"/>
+
+  <ellipse cx="600" cy="178" rx="330" ry="58" fill="none" stroke="url(#orbit)" stroke-width="2.5" transform="rotate(-6 600 178)"/>
+  <circle cx="918" cy="150" r="6" fill="#3fd4ff"/>
+
+  <text x="600" y="200" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="108" font-weight="700" letter-spacing="-3" fill="url(#word)">Vazie</text>
+
+  <path d="M600 54 L608 82 L636 90 L608 98 L600 126 L592 98 L564 90 L592 82 Z" fill="#c9b8ff" opacity="0.95"/>
+
+  <text x="600" y="262" text-anchor="middle" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" letter-spacing="3" fill="#b9acd9">CALM  ·  PRIVATE  ·  YOURS</text>
+</svg>

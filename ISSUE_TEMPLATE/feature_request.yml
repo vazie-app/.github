@@ -1,0 +1,22 @@
+name: Feature request / Предложение
+description: Suggest an improvement / Предложить улучшение
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Проблема
+      description: What are you trying to do? / Что вы пытаетесь сделать?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal / Предложение
+      description: How could it work? Optional. / Как это могло бы работать? Необязательно.
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Principles / Принципы
+      options:
+        - label: Works without an account and keeps the user's data on their device / Работает без аккаунта и оставляет данные пользователя на его устройстве
